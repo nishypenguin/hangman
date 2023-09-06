@@ -1,12 +1,13 @@
 import random 
 
-word_list = ["watermelon", "grapes", "orange", "banana", "apple"]
-random_word_from_list= random.choice(word_list)
-print(random_word_from_list)
+def word_list():
+    word_list = ["watermelon", "grapes", "orange", "banana", "apple"]
+    random_word_from_list= random.choice(word_list)
+    return random_word_from_list
 
 
 
-def check_guess(single_letter_guess):
+def check_single_letter_guess(single_letter_guess):
     single_letter_guess = single_letter_guess.lower()
     if single_letter_guess in random_word_from_list:
         print(f"Good guess! {single_letter_guess} is in the word.")  

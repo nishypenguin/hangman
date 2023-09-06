@@ -7,4 +7,8 @@ Good luck!
 ## Installation instructions
 ## Usage instructions
 ## File structure of the project
+
+I worked on the project in stages. Each milestone corresponds to a stage, and the stages get continually more complex.
+I am now up to milestone 4, where we have the defined the class Hangman, its attributes and its methods.
+
 ## License information
